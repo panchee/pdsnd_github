@@ -15,5 +15,24 @@ The following libraries and their versions used when writing the script for the 
 - `v1.15.1` [NumPy](https://docs.scipy.org/doc/numpy-1.15.1/reference/index.html#reference)
 - `v0.23.4` [Pandas](https://pandas.pydata.org/pandas-docs/version/0.23.4/index.html)
 
+#### Getting Started
+It is necessary for users to install [Python and Anaconda](https://www.datacamp.com/community/tutorials/installing-anaconda-windowsshould) to run the script.
+
+### How to use the program?
+1. Ensure that the required files and python script is in the current working directory.
+2. Run the script in the terminal with:
+`python bikshare.py`
+3. The script will prompt the user for an input based on these questions:
+
+   * Would you like to see data for Chicago, New York, or Washington?
+   * Would you like to filter by month, day, both, or none at all?
+   * _(If they chose month)_ Which month - January, February, March, April, May, or June?
+   * _(If they chose day)_ Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?
+
+
+4. Depending on the user input, the data will be _filtered_ accordingly and statistical results of the filtered dataset will be displayed.
+5. When requested, the user is able to see five rows of raw data until otherwise communicated.
+6. Finally, the user can choose to either restart or terminate the program.
+
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
