@@ -6,9 +6,9 @@
 
 #### Required Files
 The following data files _must_ be used with the program:
-- chicago.csv
-- new_york_city.csv
-- washington.csv
+- [chicago.csv](chicago.csv)
+- [new_york_city.csv](new_york_city.csv)
+- [washington.csv](washington.csv)
 
 The following libraries and their versions used when writing the script for the program are:
 - `v3.7.1` [time](https://docs.python.org/3/library/time.html)
