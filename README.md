@@ -35,4 +35,6 @@ It is necessary for users to install [Python and Anaconda](https://www.datacamp.
 6. Finally, the user can choose to either restart or terminate the program.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Special thanks to the following for making this project possible:
+* [Udacity](https://www.udacity.com/) for providing the materials and knowledge to build the project
+* [RomchyFCC's Repo](https://github.com/RomchyFCC/GitHub-Practice-For-All) for providing a repo setup to practice git skills
