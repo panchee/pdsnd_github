@@ -30,16 +30,7 @@ def get_filters():
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city = get_city()
     # get user input if they would like to filter by month, day, both or none at all
-    filter_valid = False
-    while filter_valid == False:
-            choice_choices = ['month', 'day', 'both', 'none']
-            choice = input('Would you like to filter by month, day, both, or none at all?\n').lower()
-            if choice in choice_choices:
-                filter_valid = True
-                print("You have selected to filter by: {}".format(choice))
-            else:
-                print("That is not a valid choice. Check for spaces and typos before trying again.")
-
+    choice =get_timeframe()
     # get user input for month (all, january, february, ... , june)
     month = 'all'
     day = 'all'
@@ -165,6 +156,18 @@ def get_restart():
         else:
             print("This is not a valid option. Try again.")
     return restart_choice
+
+def get_timeframe():
+    filter_valid = False
+    while filter_valid == False:
+            choice_choices = ['month', 'day', 'both', 'none']
+            choice = input('Would you like to filter by month, day, both, or none at all?\n').lower()
+            if choice in choice_choices:
+                filter_valid = True
+                print("You have selected to filter by: {}".format(choice))
+                return choice
+            else:
+                print("That is not a valid choice. Check for spaces and typos before trying again.")
 
 def load_data(city, month, day):
     """
