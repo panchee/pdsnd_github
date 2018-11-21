@@ -5,6 +5,17 @@ import numpy as np
 CITY_DATA = { 'chicago':'chicago.csv',
               'new york city':'new_york_city.csv',
               'washington':'washington.csv' }
+def get_city():
+    city_valid = False
+    while city_valid == False:
+        city_choices = ['chicago','new york city', 'washington']
+        city = input("Would you like to see the data for Chicago, New York City or Washington?\n").lower()
+        if city in city_choices:
+            city_valid = True
+            print("You have selected data from: {}".format(city))
+            return city
+        else:
+            print("That is not a valid city. Check for spaces and typos before trying again.")
 
 def get_filters():
     """
@@ -17,15 +28,7 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-    city_valid = False
-    while city_valid == False:
-        city_choices = ['chicago','new york city', 'washington']
-        city = input("Would you like to see the data for Chicago, New York City or Washington?\n").lower()
-        if city in city_choices:
-            city_valid = True
-            print("You have selected data from: {}".format(city))
-        else:
-            print("That is not a valid city. Check for spaces and typos before trying again.")
+    city = get_city()
     # get user input if they would like to filter by month, day, both or none at all
     filter_valid = False
     while filter_valid == False:
