@@ -1,8 +1,8 @@
-### Version Control
-`20/11/2018` This project was created on 20th November 2018.
-***
 # BikeShare Interactive Data Tool (IDT)
 > The bikeshare IDT is an interactive tool to aid in the understanding U.S. bikeshare data. This tool provides the user with a filtered dataset based on the user's choices.
+
+### Getting Started
+It is necessary for users to install [Python and Anaconda](https://www.datacamp.com/community/tutorials/installing-anaconda-windowsshould) to run the script.
 
 #### Required Files
 The following data files _must_ be used with the program:
@@ -14,9 +14,6 @@ The following libraries and their versions used when writing the script for the 
 - `v3.7.1` [time](https://docs.python.org/3/library/time.html)
 - `v1.15.1` [NumPy](https://docs.scipy.org/doc/numpy-1.15.1/reference/index.html#reference)
 - `v0.23.4` [Pandas](https://pandas.pydata.org/pandas-docs/version/0.23.4/index.html)
-
-#### Getting Started
-It is necessary for users to install [Python and Anaconda](https://www.datacamp.com/community/tutorials/installing-anaconda-windowsshould) to run the script.
 
 ### How to use the program?
 1. Ensure that the required files and python script is in the current working directory.
@@ -38,3 +35,7 @@ It is necessary for users to install [Python and Anaconda](https://www.datacamp.
 Special thanks to the following for making this project possible:
 * [Udacity](https://www.udacity.com/) for providing the materials and knowledge to build the project
 * [RomchyFCC's Repo](https://github.com/RomchyFCC/GitHub-Practice-For-All) for providing a repo setup to practice git skills
+***
+### Version Control
+`20/11/2018` This project was created on 20th November 2018.
+***
